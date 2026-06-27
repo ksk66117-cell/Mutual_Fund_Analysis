@@ -1,0 +1,23 @@
+# Data Dictionary
+
+## fact_nav
+- amfi_code : Mutual fund scheme code
+- date : NAV date
+- nav : Net Asset Value
+
+## fact_transactions
+- investor_id : Investor ID
+- transaction_date : Transaction date
+- transaction_type : SIP / Lumpsum / Redemption
+- amount_inr : Transaction amount in INR
+- state : Investor state
+- city : Investor city
+- kyc_status : KYC verification status
+
+## fact_performance
+- return_1yr_pct : One year return percentage
+- sharpe_ratio : Risk-adjusted return measure
+- alpha : Excess return over benchmark
+- beta : Volatility measure
+- expense_ratio_pct : Expense ratio percentage
+- risk_grade : Risk category
